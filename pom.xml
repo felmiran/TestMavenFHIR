@@ -37,11 +37,11 @@
       <artifactId>spring-web</artifactId>
       <version>5.0.3.RELEASE</version>
     </dependency>
-
     <dependency>
-      <groupId>org.codehaus.mojo</groupId>
-      <artifactId>tomcat-maven-plugin</artifactId>
-      <version>1.1</version>
+      <groupId>org.apache.tomcat.maven</groupId>
+      <artifactId>tomcat7-maven-plugin</artifactId>
+      <version>2.2</version>
+      <type>maven-plugin</type>
     </dependency>
 
     <dependency>
@@ -124,9 +124,9 @@
           </configuration>
         </plugin>
         <plugin>
-        <groupId>org.apache.tomcat.maven</groupId>
-        <artifactId>tomcat7-maven-plugin</artifactId>
-        <version>2.2</version>
+          <groupId>org.apache.tomcat.maven</groupId>
+          <artifactId>tomcat7-maven-plugin</artifactId>
+          <version>2.2</version>
         </plugin>
 
       </plugins>
